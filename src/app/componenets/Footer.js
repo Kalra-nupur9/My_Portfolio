@@ -2,11 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="relative mt-[-1px] bg-main-rednpx shadcn@latest init -d
- py-20">
+    <footer className="relative  bg-main-red py-10">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 p-5 relative">
-          <div className="absolute left-0 bottom-[-5.9rem] text-pink-200 text-8xl select-none -z-1">
+          <div className="absolute left-[65%] bottom-[-52%] text-pink-200 text-7xl select-none -z-1">
             NUPUR KALRA
           </div>
 

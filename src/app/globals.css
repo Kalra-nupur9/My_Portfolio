@@ -16,8 +16,8 @@
   width: 100vw;
   overflow-y: auto;
   overflow-x: hidden;
-  background-image: linear-gradient(to right bottom, #e42756, #ee6b9e, #f5bede, #ffffff, #ffffff);
-  font-family: in;
 }
-
+.bg_color{
+  background-image: linear-gradient(to right bottom, #e42756, #ee6b9e, #f5bede, #ffffff, #ffffff);
+}
 

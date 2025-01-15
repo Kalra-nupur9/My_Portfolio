@@ -30,16 +30,16 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="container mx-auto py-16 px-40">
+    <div className="container mx-auto p-16 px-40" id="home">
       {/* HERO SECTION */}
-      <div className="relative flex flex-col md:flex-row justify-center items-center gap-24 mb-32">
+      <div className="relative flex flex-col md:flex-row justify-center items-center gap-24 ">
         {/* Faded Text */}
-        <div className="absolute text-gray-200 text-[20em] font-medium select-none bottom-[-46%]  left-[-10%] tracking-tightest transition-all duration-300">
+        <div className="absolute text-gray-200 text-[20em] font-medium select-none bottom-[-40.7%]  left-[-10%] tracking-tightest transition-all duration-300">
           NK
         </div>
 
         {/* Left Section */}
-        <div className="flex flex-col gap-5 w-3/5">
+        <div className="flex flex-col gap-5 w-3/5 pt-14 ">
           <div className="text-5xl font-medium text-gray-800">
             Hello, I’m{" "}
             <span className="text-rose-500 text-6xl tracking-tighter font-semibold">
@@ -53,20 +53,22 @@ const HeroSection = () => {
             style={{ minHeight: "1.5em" }}
           ></div>
 
-          <div className="mt-4 w-[80%] text-justify font-medium text-xl">
+          <div className="mt-4 w-[80%] text-justify font-medium text-xl z-10">
             Welcome to my professional portfolio! Here, you can explore my
             journey as a software developer, discover the skills I bring to the
             table, and see the projects I’ve worked on. Feel free to reach out
             and connect!
           </div>
 
-          <button
-            id="btn"
-            className="relative z-10 bg-rose-500 text-white text-lg font-medium px-8 py-3 my-5 rounded-full shadow-lg overflow-hidden group hover:text-black transition-all duration-500 w-1/4"
-          >
-            <span className="absolute inset-0 bg-white scale-x-0 transition-transform duration-500 group-hover:scale-x-100 z-[-1] rounded-full"></span>
-            Hire Me
-          </button>
+          
+          <a
+        href="/PDF/NUPUR KALRA.pdf" // Path to your resume file
+        download="Nupur_Kalra_Resume.pdf" // File name for the download
+        className="relative z-10 bg-rose-500 text-white text-lg font-medium px-8 py-3 my-5 rounded-full shadow-lg overflow-hidden group hover:text-black transition-all duration-500 w-1/4 text-center"
+      >
+        <span className="absolute inset-0 bg-white scale-x-0 transition-transform duration-500 group-hover:scale-x-100 z-[-1] rounded-full"></span>
+        Hire Me
+      </a>
         </div>
 
         {/* Right Section */}

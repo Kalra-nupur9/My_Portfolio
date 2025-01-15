@@ -18,17 +18,17 @@ function Navbar() {
             </div>
 
             <div className="hidden md:block">
-              <div className="ml-4 flex items-center space-x-10">
-                <a href="/home  " className=" text-xl text-black hover:text-main-red  font-medium">
+              <div className="ml-4 flex items-center space-x-10 ">
+                <a href="#home  " className=" text-xl text-black hover:text-main-red  font-medium">
                   Home
                 </a>
-                <a href="/home  " className=" text-xl text-black hover:text-main-red font-medium">
+                <a href="#Project  " className=" text-xl text-black hover:text-main-red font-medium">
                   My-Projects
                 </a>
-                <a href="/home  " className=" text-xl text-black hover:text-main-red font-medium">
+                <a href="#skills  " className=" text-xl text-black hover:text-main-red font-medium">
                   My Skills
                 </a>
-                <a href="/home  " className=" text-xl text-black hover:text-main-red font-medium">
+                <a href="#contactMe  " className=" text-xl text-black hover:text-main-red font-medium">
                   Contact Me
                 </a>
                 
