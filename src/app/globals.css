@@ -21,3 +21,35 @@
   background-image: linear-gradient(to right bottom, #e42756, #ee6b9e, #f5bede, #ffffff, #ffffff);
 }
 
+
+.hinge {
+  animation: hinge 2s ease infinite;
+}
+@keyframes hinge {
+  0% { transform: rotate(0); transform-origin: top right ; animation-timing-function: ease-in-out; }  
+  20%, 60% { transform: rotate(-90deg); transform-origin: top right ; animation-timing-function: ease-in-out; }  
+  40% { transform: rotate(50deg); transform-origin: top  right; animation-timing-function: ease-in-out; } 
+  80% { transform: rotate(-60deg) translateY(0); opacity: 1; transform-origin: top right ; animation-timing-function: ease-in-out; } 
+  100% { transform: translateY(700px); opacity: 0; }
+}
+
+
+.gradient {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(-234deg, #e42756, #ee6b9e, #f5bede, #ffffff, #ffffff);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

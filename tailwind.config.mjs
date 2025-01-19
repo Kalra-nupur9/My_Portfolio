@@ -23,6 +23,7 @@ export default {
   			wider: '.05em',
   			widest: '.25em'
   		},
+      
     },
   },
   plugins: [],

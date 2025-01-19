@@ -30,85 +30,84 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="container mx-auto p-16 px-40" id="home">
-      {/* HERO SECTION */}
-      <div className="relative flex flex-col md:flex-row justify-center items-center gap-24 ">
-        {/* Faded Text */}
-        <div className="absolute text-gray-200 text-[20em] font-medium select-none bottom-[-40.7%]  left-[-10%] tracking-tightest transition-all duration-300">
-          NK
-        </div>
+    <>
+      <div className=" " id="home">
+        {/* HERO SECTION */}
+        <div className="relative  ">
+          {/* Faded Text */}
+          {/* <div className="absolute visible lg:visible md:visible sm:invisible  text-gray-200 text-[20em] font-medium select-none bottom-[-18%]  left-[5%] tracking-tightest transition-all duration-300">
+            NK
+          </div> */}
+          <div className="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
+            <div className="mr-auto place-self-center lg:col-span-7">
+              <h1 className="max-w-3xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
+                Hello, I’m{" "}
+                <span className="text-rose-500 text-6xl tracking-tighter font-semibold">
+                  NUPUR KALRA
+                </span>
+              </h1>
+              <div
+                className="text-5xl text-indigo-700 uppercase  "
+                ref={typedRef}
+                style={{ minHeight: "1.5em" }}
+              ></div>
+              <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                Welcome to my professional portfolio! Here, you can explore my
+                journey as a software developer, discover the skills I bring to
+                the table, and see the projects I’ve worked on. Feel free to
+                reach out and connect!
+              </p>
+              <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+                <a
+                  href="/PDF/NUPUR KALRA.pdf"
+                  download="Nupur_Kalra_Resume.pdf"
+                  className="relative z-10 bg-rose-500 text-white text-lg font-medium px-5 py-3 my-5 rounded-full shadow-lg overflow-hidden group hover:text-black transition-all duration-500 lg:w-auto md:w-auto sm:w-full w-full text-center"
+                >
+                  <span className="absolute inset-0 bg-white scale-x-0 transition-transform duration-500 group-hover:scale-x-100 z-[-1] rounded-full"></span>
+                  Download CV
+                </a>
+                
+              </div>
+            </div>
+            <div className="hidden relative lg:mt-0 lg:col-span-5 lg:flex">
+              {/* Floating Icons */}
+              <img
+                src="./images/userAsset/dots.png"
+                alt="dots"
+                className="absolute bottom-[-1rem] right-0 animate-bounce"
+              />
+              <img
+                src="./images/userAsset/cube.png"
+                alt="cube"
+                className="absolute top-[-0.8rem] right-4 animate-bounce"
+              />
+              <img
+                src="./images/userAsset/circle.png"
+                alt="circle"
+                className="absolute bottom-0 left-0  animate-ping"
+              />
+              <img
+                src="./images/userAsset/zigzags.png"
+                alt="zigzag"
+                className="absolute top-6 left-[-0.5rem] animate-pulse"
+              />
+              <img
+                src="./images/userAsset/plus.png"
+                alt="plus"
+                className="absolute top-[-0.8rem] left-[50%] animate-spin"
+              />
 
-        {/* Left Section */}
-        <div className="flex flex-col gap-5 w-3/5 pt-14 ">
-          <div className="text-5xl font-medium text-gray-800">
-            Hello, I’m{" "}
-            <span className="text-rose-500 text-6xl tracking-tighter font-semibold">
-              NUPUR KALRA
-            </span>
+              {/* Background Image */}
+              <img
+                src="./images/userAsset/Programming.gif"
+                alt="Programming"
+                className="  transition-all duranion-1000 mix-blend-multiply w-full"
+              />
+            </div>
           </div>
-
-          <div
-            className="text-5xl text-indigo-700 uppercase "
-            ref={typedRef}
-            style={{ minHeight: "1.5em" }}
-          ></div>
-
-          <div className="mt-4 w-[80%] text-justify font-medium text-xl z-10">
-            Welcome to my professional portfolio! Here, you can explore my
-            journey as a software developer, discover the skills I bring to the
-            table, and see the projects I’ve worked on. Feel free to reach out
-            and connect!
-          </div>
-
-          
-          <a
-        href="/PDF/NUPUR KALRA.pdf" // Path to your resume file
-        download="Nupur_Kalra_Resume.pdf" // File name for the download
-        className="relative z-10 bg-rose-500 text-white text-lg font-medium px-8 py-3 my-5 rounded-full shadow-lg overflow-hidden group hover:text-black transition-all duration-500 w-1/4 text-center"
-      >
-        <span className="absolute inset-0 bg-white scale-x-0 transition-transform duration-500 group-hover:scale-x-100 z-[-1] rounded-full"></span>
-        Hire Me
-      </a>
-        </div>
-
-        {/* Right Section */}
-        <div className="relative w-2/5 ">
-          {/* Floating Icons */}
-          <img
-            src="./images/userAsset/dots.png"
-            alt="dots"
-            className="absolute bottom-[-1rem] right-0 animate-bounce"
-          />
-          <img
-            src="./images/userAsset/cube.png"
-            alt="cube"
-            className="absolute top-[-0.8rem] right-4 animate-spin-slow"
-          />
-          <img
-            src="./images/userAsset/circle.png"
-            alt="circle"
-            className="absolute bottom-0 left-0 animate-pulse"
-          />
-          <img
-            src="./images/userAsset/zigzags.png"
-            alt="zigzag"
-            className="absolute top-6 left-[-0.5rem] animate-wiggle"
-          />
-          <img
-            src="./images/userAsset/plus.png"
-            alt="plus"
-            className="absolute top-[-0.8rem] left-[50%] animate-shake"
-          />
-
-          {/* Background Image */}
-          <img
-            src="./images/userAsset/Programming.gif"
-            alt="Programming"
-            className="  transition-all duranion-1000 mix-blend-multiply"
-          />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -9,18 +9,18 @@ import ContactMe from "./componenets/ContactMe";
 
 export default function Home() {
   return (
-   <>
-   <div className="bg_color">
+   <> 
+   <div className="bg_color ">
    <Navbar/>
    <HeroSection/>
    </div>
     
-    <ProjectsSection/>
-    <div className="bg_color">
+    {/* <ProjectsSection/> */}
+    <div className="gradient">
     <Skills />
     </div>
     
-    <ContactMe/>
+    {/* <ContactMe/> */}
     <Footer/>
    </>
   );
