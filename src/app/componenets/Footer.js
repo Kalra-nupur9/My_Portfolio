@@ -1,13 +1,16 @@
 import React from "react";
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="relative  bg-main-red py-10">
-      <div className="container mx-auto">
+    <footer className="footer text-center relative  bg-main-red py-10 w-screen">
+    
+      <div className="container mx-auto ">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 p-5 relative">
-          <div className="absolute left-[65%] bottom-[-52%] text-pink-200 text-7xl select-none -z-1">
-            NUPUR KALRA
-          </div>
+          
 
           {/* Links */}
           <div className="flex flex-col md:flex-row gap-4 z-0 ">
@@ -31,16 +34,23 @@ const Footer = () => {
             </a>
           </div>
 
+          
+
           {/* Icons */}
-          <div className="flex gap-4">
-            <i className="fab fa-linkedin text-white text-xl cursor-pointer hover:text-gray-300"></i>
-            <i className="fab fa-github text-white text-xl cursor-pointer hover:text-gray-300"></i>
-            <i className="fab fa-twitter text-white text-xl cursor-pointer hover:text-gray-300"></i>
-            <i className="fab fa-instagram text-white text-xl cursor-pointer hover:text-gray-300"></i>
-            <i className="fa fa-envelope text-white text-xl cursor-pointer hover:text-gray-300"></i>
+          <div className="flex gap-4 px-5">
+            
+            <FaInstagram className="text-white text-3xl cursor-pointer hover:text-pink-200" />
+            <FaGithub className="text-white text-3xl cursor-pointer hover:text-pink-200" />
+            <FaLinkedin className="text-white text-3xl cursor-pointer hover:text-pink-200" />
+            <FaXTwitter className="text-white text-3xl cursor-pointer hover:text-pink-200"/>
+            
           </div>
         </div>
+        <div className=" text-pink-200 text-7xl select-none justify-end flex w-full px-5 ">
+            NUPUR KALRA
+          </div>
       </div>
+      
     </footer>
   );
 };
