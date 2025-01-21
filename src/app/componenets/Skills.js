@@ -46,7 +46,7 @@ function Skills() {
   ];
   return (
     <>
-      <div className="grid max-w-screen-xl p-5  m-auto gap-8 lg:gap-5 lg:py-16 lg:grid-cols-12 box-content">
+      <div className="grid max-w-screen-xl p-5  m-auto gap-8 lg:gap-5 lg:py-16 lg:grid-cols-12 box-content" id="skills">
         {/* Left Section */}
         <div className="mr-auto place-self-center lg:col-span-7">
           <div className="">

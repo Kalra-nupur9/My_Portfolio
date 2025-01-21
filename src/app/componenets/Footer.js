@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="footer text-center relative  bg-main-red py-10 w-screen">
+    <footer className="footer text-center relative  bg-main-red py-10 w-screen" id="footer">
     
       <div className="container mx-auto ">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 p-5 relative">
@@ -14,8 +14,14 @@ const Footer = () => {
 
           {/* Links */}
           <div className="flex flex-col md:flex-row gap-4 z-0 ">
+          <a
+              href="#home"
+              className="text-white text-xl no-underline hover:text-black transition-all duration-300"
+            >
+              Home
+            </a>
             <a
-              href="#projects"
+              href="#Project"
               className="text-white text-xl no-underline hover:text-black transition-all duration-300"
             >
               Projects

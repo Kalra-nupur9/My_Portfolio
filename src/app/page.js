@@ -20,7 +20,7 @@ export default function Home() {
     <Skills />
     </div>
     
-    {/* <ContactMe/> */}
+    <ContactMe/>
     <Footer/>
    </>
   );
