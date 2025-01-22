@@ -54,7 +54,9 @@ const Footer = () => {
         </div>
         <div className=" text-pink-200 text-7xl select-none justify-end flex w-full px-5 ">
             NUPUR KALRA
+            
           </div>
+          <p>© 2025 Nupur Kalra All Rights Reserved.</p>
       </div>
       
     </footer>

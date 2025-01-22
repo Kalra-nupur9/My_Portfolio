@@ -18,9 +18,15 @@
   overflow-x: hidden;
 }
 .bg_color{
-  background-image: linear-gradient(to right bottom, #e42756, #ee6b9e, #f5bede, #ffffff, #ffffff);
+  background-image: linear-gradient(to right , #e42756, #ee6b9e, #f5bede, #ffffff, #ffffff, #ffffff);
+  
 }
-
+.nav_bg {
+	background-image: linear-gradient(to right ,#e42756, #ee6b9e, #f5bede, #ffffff, #ffffff, #ffffff);
+	background-size: cover;
+	background-attachment: fixed;
+	
+  }
 
 .hinge {
   animation: hinge 2s ease infinite;
@@ -40,6 +46,8 @@
 	background-size: 180% 180%;
 	animation: gradient-animation 6s ease infinite;
 }
+
+  
 
 @keyframes gradient-animation {
 	0% {

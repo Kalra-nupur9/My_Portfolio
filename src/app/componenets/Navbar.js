@@ -7,12 +7,12 @@ function Navbar() {
     setisClick(!isClick);
   };
   return (
-    <nav id="navBar">
+    <nav id="navBar" className="bg-gradient-to-r from-pink-300 via-white to-rose-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
         <div className="flex items-center justify-between h-16 ">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <a href="" className="text-black tracking-tightest text-8xl">
+              <a href="/" className="text-black tracking-tightest text-8xl">
                 NK
               </a>
             </div>
@@ -21,25 +21,25 @@ function Navbar() {
           <div className="hidden md:block w-3/4">
             <div className="  ml-4 flex items-center space-x-10  justify-end">
               <a
-                href="#home  "
+                href="/  "
                 className=" text-xl text-black hover:text-main-red  font-medium"
               >
                 Home
               </a>
               <a
-                href="#Project  "
+                href="/project  "
                 className=" text-lg  text-black hover:text-main-red font-medium"
               >
                 My-Projects
               </a>
               <a
-                href="#skills  "
+                href="/aboutme  "
                 className=" text-xl text-black hover:text-main-red font-medium"
               >
                 My Skills
               </a>
               <a
-                href="#contactMe  "
+                href="/contactme  "
                 className=" text-xl text-black hover:text-main-red font-medium"
               >
                 Contact Me
@@ -85,27 +85,27 @@ function Navbar() {
       </div>
       {isClick && (
         <div className="md-hidden flex justify-end ">
-          <div className=" w-full space-y-1 bg-gradient-to-r from-main-red to-white rounded-lg py-1">
+          <div className=" w-full space-y-1 bg-gradient-to-r from-pink-300 via-white to-rose-300rounded-lg py-1">
             <a
-              href="/home  "
+              href="/  "
               className=" text-xl text-black block text-center hover:text-main-red  font-medium py-2"
             >
               Home
             </a>
             <a
-              href="/my-project  "
+              href="/project  "
               className=" text-xl text-black text-center block hover:text-red-600  font-medium py-2"
             >
               My-Projects
             </a>
             <a
-              href="/my-skills  "
+              href="/aboutme  "
               className=" text-xl text-black text-center block hover:text-red-600   font-medium py-2"
             >
               My Skills
             </a>
             <a
-              href="/contact-me  "
+              href="/contactme  "
               className=" text-xl text-black text-center block hover:text-red-600   font-medium py-2"
             >
               Contact Me
