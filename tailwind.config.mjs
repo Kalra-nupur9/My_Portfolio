@@ -8,6 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'card-bg': '#fed4d9',
         'main-red': '#e42c5c',
         background: "var(--background)",
         foreground: "var(--foreground)",

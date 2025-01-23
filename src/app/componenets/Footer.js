@@ -15,25 +15,25 @@ const Footer = () => {
           {/* Links */}
           <div className="flex flex-col md:flex-row gap-4 z-0 ">
           <a
-              href="#home"
+              href="/"
               className="text-white text-xl no-underline hover:text-black transition-all duration-300"
             >
               Home
             </a>
             <a
-              href="#Project"
+              href="/project"
               className="text-white text-xl no-underline hover:text-black transition-all duration-300"
             >
               Projects
             </a>
             <a
-              href="#skills"
+              href="/aboutme"
               className="text-white  text-xl no-underline hover:text-black transition-all duration-300"
             >
               Skills
             </a>
             <a
-              href="#Contactme"
+              href="\contactme"
               className="text-white  text-xl no-underline hover:text-black transition-all duration-300"
             >
               Contact Me

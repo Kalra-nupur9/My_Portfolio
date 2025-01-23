@@ -18,7 +18,7 @@
   overflow-x: hidden;
 }
 .bg_color{
-  background-image: linear-gradient(to right , #e42756, #ee6b9e, #f5bede, #ffffff, #ffffff, #ffffff);
+  background-image: linear-gradient(to right, #ee6b9e, #fbc8e6 , #ee6b9e);
   
 }
 .nav_bg {

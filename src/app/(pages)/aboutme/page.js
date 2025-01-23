@@ -52,11 +52,12 @@ function page() {
          {/* Left Section */}
          <div className="mr-auto place-self-center lg:col-span-7">
            <div className="">
-             <h2 className="text-6xl font-bold text-indigo-700 leading-tight">
-               <span className="text-8xl">M</span>e and
-               <br />
-               My Tech Stack
-             </h2>
+           <div className="text-7xl text-main-red font-semibold text-start">
+        MY TECH STACK
+      </div>
+      <div className=" text-5xl text-pink-500 text-start  ">
+        AND ME
+      </div>
              <div className="mt-1 text-justify text-lg">
                <p className="mb-4">
                  I am a passionate and self-motivated software developer with 6
