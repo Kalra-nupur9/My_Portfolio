@@ -12,7 +12,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-16 ">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <a href="/" className="text-white tracking-tightest text-8xl">
+              <a href="/" className=" tracking-tightest text-8xl bg-gradient-to-r from-main-red to-pink-300 bg-clip-text text-transparent pr-5">
                 NK
               </a>
             </div>
