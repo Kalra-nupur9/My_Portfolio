@@ -292,7 +292,7 @@ function page() {
             className="absolute rounded-br-full text-main-red font-bold text-5xl md:text-8xl opacity-0 transition-opacity duration-700 delay-200 group-hover:opacity-100 
     top-0 left-0 bg-white pb-5 pe-8 ps-2 shadow-lg"
           >
-            01
+            05
           </p>
         </div>
         {/* 06 Project */}
