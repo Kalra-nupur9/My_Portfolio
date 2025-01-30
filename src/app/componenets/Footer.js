@@ -56,7 +56,7 @@ const Footer = () => {
             NUPUR KALRA
             
           </div>
-          <p>© 2025 Nupur Kalra All Rights Reserved.</p>
+          <p>© 2025 All Rights Reserved.</p>
       </div>
       
     </footer>

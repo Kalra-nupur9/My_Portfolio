@@ -136,160 +136,160 @@ function page() {
         {/* 01 Project */}
         <div className="relative group rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 shadow-lg">
           <img
-            src="./images/projects/techsetGo.png"
+            src="./images/projects/project1.png"
             alt="Project image"
             className="w-full h-64 md:h-80 object-cover"
           />
-          <div className="absolute inset-0 bg-slate-400 text-black opacity-0 transition-opacity duration-500 group-hover:opacity-90 flex flex-col justify-center items-center p-6">
-            <div className="grid grid-cols-7 gap-4 mb-6 pt-10">
-              {techStack.map((tech, index) => (
-                <div
-                  key={index}
-                  className="flex items-center justify-center transform hover:scale-125 transition duration-300"
-                >
-                  {tech.icon}
-                </div>
-              ))}
+            <div className="topGrid absolute inset-0 backdrop-blur-[6px] border-2 rounded-2xl border-main-red  text-black transform -translate-x-full transition-transform duration-500 group-hover:translate-x-0 flex flex-col justify-center items-center p-6">
+              <div className="grid grid-cols-7 gap-4 mb-6 pt-10 ">
+                {techStack.map((tech, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center justify-center transform hover:scale-125 transition duration-300"
+                  >
+                    {tech.icon}
+                  </div>
+                ))}
+              </div>
+              <h1 className="text-2xl md:text-3xl font-bold py-4 text-main-red">
+                Name: Company Name
+              </h1>
+              <p className="text-sm md:text-base text-justify ">
+                About Project: Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Nesciunt esse facere iusto nostrum mollitia at assumenda,
+                aperiam laborum, dolores aliquam odio ex fugiat quidem, inventore
+                odit harum tempora nam voluptatem!
+              </p>
             </div>
-            <h1 className="text-2xl md:text-3xl font-bold py-4">
-              Name: Company Name
-            </h1>
-            <p className="text-sm md:text-base text-justify text-main-red">
-              About Project: Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Nesciunt esse facere iusto nostrum mollitia at assumenda,
-              aperiam laborum, dolores aliquam odio ex fugiat quidem, inventore
-              odit harum tempora nam voluptatem!
-            </p>
-          </div>
-          <p className="absolute text-main-red font-bold text-5xl md:text-7xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 top-4 left-4">
+          <p className="absolute rounded-br-full text-main-red font-bold text-5xl md:text-8xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 top-0 left-0 bg-white  pb-5 pe-8 ps-2 shadow-lg">
             01
           </p>
         </div>
         {/* 01 Project */}
         <div className="relative group rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 shadow-lg">
           <img
-            src="./images/projects/PasswordManager.png"
+            src="./images/projects/project1.png"
             alt="Project image"
             className="w-full h-64 md:h-80 object-cover"
           />
-          <div className="absolute inset-0 bg-slate-400 text-black opacity-0 transition-opacity duration-500 group-hover:opacity-90 flex flex-col justify-center items-center p-6">
-            <div className="grid grid-cols-7 gap-4 mb-6 pt-10">
-              {techStack.map((tech, index) => (
-                <div
-                  key={index}
-                  className="flex items-center justify-center transform hover:scale-125 transition duration-300"
-                >
-                  {tech.icon}
-                </div>
-              ))}
+            <div className="topGrid absolute inset-0 backdrop-blur-[6px] border-2 rounded-2xl border-main-red  text-black transform -translate-x-full transition-transform duration-500 group-hover:translate-x-0 flex flex-col justify-center items-center p-6">
+              <div className="grid grid-cols-7 gap-4 mb-6 pt-10 ">
+                {techStack.map((tech, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center justify-center transform hover:scale-125 transition duration-300"
+                  >
+                    {tech.icon}
+                  </div>
+                ))}
+              </div>
+              <h1 className="text-2xl md:text-3xl font-bold py-4 text-main-red">
+                Name: Company Name
+              </h1>
+              <p className="text-sm md:text-base text-justify ">
+                About Project: Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Nesciunt esse facere iusto nostrum mollitia at assumenda,
+                aperiam laborum, dolores aliquam odio ex fugiat quidem, inventore
+                odit harum tempora nam voluptatem!
+              </p>
             </div>
-            <h1 className="text-2xl md:text-3xl font-bold py-4">
-              Name: Company Name
-            </h1>
-            <p className="text-sm md:text-base text-justify text-main-red">
-              About Project: Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Nesciunt esse facere iusto nostrum mollitia at assumenda,
-              aperiam laborum, dolores aliquam odio ex fugiat quidem, inventore
-              odit harum tempora nam voluptatem!
-            </p>
-          </div>
-          <p className="absolute text-main-red font-bold text-5xl md:text-7xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 top-4 left-4">
+          <p className="absolute rounded-br-full text-main-red font-bold text-5xl md:text-8xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 top-0 left-0 bg-white  pb-5 pe-8 ps-2 shadow-lg">
             01
           </p>
         </div>
         {/* 01 Project */}
         <div className="relative group rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 shadow-lg">
           <img
-            src="./images/projects/razorpay.png"
+            src="./images/projects/project1.png"
             alt="Project image"
             className="w-full h-64 md:h-80 object-cover"
           />
-          <div className="absolute inset-0 bg-slate-400 text-black opacity-0 transition-opacity duration-500 group-hover:opacity-90 flex flex-col justify-center items-center p-6">
-            <div className="grid grid-cols-7 gap-4 mb-6 pt-10">
-              {techStack.map((tech, index) => (
-                <div
-                  key={index}
-                  className="flex items-center justify-center transform hover:scale-125 transition duration-300"
-                >
-                  {tech.icon}
-                </div>
-              ))}
+            <div className="topGrid absolute inset-0 backdrop-blur-[6px] border-2 rounded-2xl border-main-red  text-black transform -translate-x-full transition-transform duration-500 group-hover:translate-x-0 flex flex-col justify-center items-center p-6">
+              <div className="grid grid-cols-7 gap-4 mb-6 pt-10 ">
+                {techStack.map((tech, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center justify-center transform hover:scale-125 transition duration-300"
+                  >
+                    {tech.icon}
+                  </div>
+                ))}
+              </div>
+              <h1 className="text-2xl md:text-3xl font-bold py-4 text-main-red">
+                Name: Company Name
+              </h1>
+              <p className="text-sm md:text-base text-justify ">
+                About Project: Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Nesciunt esse facere iusto nostrum mollitia at assumenda,
+                aperiam laborum, dolores aliquam odio ex fugiat quidem, inventore
+                odit harum tempora nam voluptatem!
+              </p>
             </div>
-            <h1 className="text-2xl md:text-3xl font-bold py-4">
-              Name: Company Name
-            </h1>
-            <p className="text-sm md:text-base text-justify text-main-red">
-              About Project: Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Nesciunt esse facere iusto nostrum mollitia at assumenda,
-              aperiam laborum, dolores aliquam odio ex fugiat quidem, inventore
-              odit harum tempora nam voluptatem!
-            </p>
-          </div>
-          <p className="absolute text-main-red font-bold text-5xl md:text-7xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 top-4 left-4">
+          <p className="absolute rounded-br-full text-main-red font-bold text-5xl md:text-8xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 top-0 left-0 bg-white  pb-5 pe-8 ps-2 shadow-lg">
             01
           </p>
         </div>
         {/* 01 Project */}
         <div className="relative group rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 shadow-lg">
           <img
-            src="./images/projects/coffeeshop.png"
+            src="./images/projects/project1.png"
             alt="Project image"
             className="w-full h-64 md:h-80 object-cover"
           />
-          <div className="absolute inset-0 bg-slate-400 text-black opacity-0 transition-opacity duration-500 group-hover:opacity-90 flex flex-col justify-center items-center p-6">
-            <div className="grid grid-cols-7 gap-4 mb-6 pt-10">
-              {techStack.map((tech, index) => (
-                <div
-                  key={index}
-                  className="flex items-center justify-center transform hover:scale-125 transition duration-300"
-                >
-                  {tech.icon}
-                </div>
-              ))}
+            <div className="topGrid absolute inset-0 backdrop-blur-[6px] border-2 rounded-2xl border-main-red  text-black transform -translate-x-full transition-transform duration-500 group-hover:translate-x-0 flex flex-col justify-center items-center p-6">
+              <div className="grid grid-cols-7 gap-4 mb-6 pt-10 ">
+                {techStack.map((tech, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center justify-center transform hover:scale-125 transition duration-300"
+                  >
+                    {tech.icon}
+                  </div>
+                ))}
+              </div>
+              <h1 className="text-2xl md:text-3xl font-bold py-4 text-main-red">
+                Name: Company Name
+              </h1>
+              <p className="text-sm md:text-base text-justify ">
+                About Project: Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Nesciunt esse facere iusto nostrum mollitia at assumenda,
+                aperiam laborum, dolores aliquam odio ex fugiat quidem, inventore
+                odit harum tempora nam voluptatem!
+              </p>
             </div>
-            <h1 className="text-2xl md:text-3xl font-bold py-4">
-              Name: Company Name
-            </h1>
-            <p className="text-sm md:text-base text-justify text-main-red">
-              About Project: Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Nesciunt esse facere iusto nostrum mollitia at assumenda,
-              aperiam laborum, dolores aliquam odio ex fugiat quidem, inventore
-              odit harum tempora nam voluptatem!
-            </p>
-          </div>
-          <p className="absolute text-main-red font-bold text-5xl md:text-7xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 top-4 left-4">
+          <p className="absolute rounded-br-full text-main-red font-bold text-5xl md:text-8xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 top-0 left-0 bg-white  pb-5 pe-8 ps-2 shadow-lg">
             01
           </p>
         </div>
         {/* 01 Project */}
         <div className="relative group rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 shadow-lg">
           <img
-            src="./images/projects/passwordGen.png"
+            src="./images/projects/project1.png"
             alt="Project image"
             className="w-full h-64 md:h-80 object-cover"
           />
-          <div className="absolute inset-0 bg-slate-400 text-black opacity-0 transition-opacity duration-500 group-hover:opacity-90 flex flex-col justify-center items-center p-6">
-            <div className="grid grid-cols-7 gap-4 mb-6 pt-10">
-              {techStack.map((tech, index) => (
-                <div
-                  key={index}
-                  className="flex items-center justify-center transform hover:scale-125 transition duration-300"
-                >
-                  {tech.icon}
-                </div>
-              ))}
+            <div className="topGrid absolute inset-0 backdrop-blur-[6px] border-2 rounded-2xl border-main-red  text-black transform -translate-x-full transition-transform duration-500 group-hover:translate-x-0 flex flex-col justify-center items-center p-6">
+              <div className="grid grid-cols-7 gap-4 mb-6 pt-10 ">
+                {techStack.map((tech, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center justify-center transform hover:scale-125 transition duration-300"
+                  >
+                    {tech.icon}
+                  </div>
+                ))}
+              </div>
+              <h1 className="text-2xl md:text-3xl font-bold py-4 text-main-red">
+                Name: Company Name
+              </h1>
+              <p className="text-sm md:text-base text-justify ">
+                About Project: Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Nesciunt esse facere iusto nostrum mollitia at assumenda,
+                aperiam laborum, dolores aliquam odio ex fugiat quidem, inventore
+                odit harum tempora nam voluptatem!
+              </p>
             </div>
-            <h1 className="text-2xl md:text-3xl font-bold py-4">
-              Name: Company Name
-            </h1>
-            <p className="text-sm md:text-base text-justify text-main-red">
-              About Project: Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Nesciunt esse facere iusto nostrum mollitia at assumenda,
-              aperiam laborum, dolores aliquam odio ex fugiat quidem, inventore
-              odit harum tempora nam voluptatem!
-            </p>
-          </div>
-          <p className="absolute text-main-red font-bold text-5xl md:text-7xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 top-4 left-4">
+          <p className="absolute rounded-br-full text-main-red font-bold text-5xl md:text-8xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 top-0 left-0 bg-white  pb-5 pe-8 ps-2 shadow-lg">
             01
           </p>
         </div>
