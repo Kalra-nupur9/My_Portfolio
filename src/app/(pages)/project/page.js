@@ -103,7 +103,7 @@ function page() {
         {/* 01 Project */}
         <div className="relative group rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-500 shadow-lg">
           <img
-            src="./images/projects/project1.png"
+            src="./images/projects/Project1.png"
             alt="Project image"
             className="w-full h-64 md:h-80 object-cover transition-opacity duration-700"
           />
