@@ -105,7 +105,7 @@ function Navbar() {
               My Skills
             </a>
             <a
-              href="/contactme  "
+              href="/contactMeNow  "
               className=" text-xl text-black text-center block hover:text-red-600   font-medium py-2"
             >
               Contact Me
