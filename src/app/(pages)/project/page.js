@@ -118,7 +118,7 @@ function page() {
             </div>
             <h1
               className="text-2xl md:text-3xl font-bold py-4 text-main-red transition-opacity duration-700 delay-200 
-                 opacity-100 md:opacity-0 md:group-hover:opacity-100"
+                 opacity-100 md:opacity-0 md:group-hover:opacity-100 text-center"
             >
               Name: Password Manager
             </h1>
@@ -262,7 +262,7 @@ function page() {
             </div>
             <h1
               className="text-2xl md:text-3xl font-bold py-4 text-main-red transition-opacity duration-700 delay-200 
-                 opacity-100 md:opacity-0 md:group-hover:opacity-100"
+                 opacity-100 md:opacity-0 md:group-hover:opacity-100 text-center"
             >
               Name: Password Genrator
             </h1>
