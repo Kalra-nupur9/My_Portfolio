@@ -39,7 +39,7 @@ function Navbar() {
                 My Skills
               </a>
               <a
-                href="/contactme  "
+                href="/contactMeNow  "
                 className=" text-xl text-black hover:text-main-red font-medium"
               >
                 Contact Me

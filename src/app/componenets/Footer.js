@@ -33,7 +33,7 @@ const Footer = () => {
               Skills
             </a>
             <a
-              href="\contactme"
+              href="\contactMeNow"
               className="text-white  text-xl no-underline hover:text-black transition-all duration-300"
             >
               Contact Me
@@ -45,10 +45,13 @@ const Footer = () => {
           {/* Icons */}
           <div className="flex gap-4 px-5">
             
-            <FaInstagram className="text-white text-3xl cursor-pointer hover:text-pink-200" />
-            <FaGithub className="text-white text-3xl cursor-pointer hover:text-pink-200" />
-            <FaLinkedin className="text-white text-3xl cursor-pointer hover:text-pink-200" />
-            <FaXTwitter className="text-white text-3xl cursor-pointer hover:text-pink-200"/>
+            {/* <FaInstagram className="text-white text-3xl cursor-pointer hover:text-pink-200" /> */}
+            
+            <a href="https://github.com/Kalra-nupur9" target="_blank"><FaGithub className="text-white text-3xl cursor-pointer hover:text-pink-200" /></a>
+            <a href="https://www.linkedin.com/in/nupur-kalra-122193287/" target="_blank"><FaLinkedin className="text-white text-3xl cursor-pointer hover:text-pink-200" /></a>
+            
+            <a href="https://x.com/NupurKalra9" target="_blank"> <FaXTwitter className="text-white text-3xl cursor-pointer hover:text-pink-200"/></a>
+           
             
           </div>
         </div>
