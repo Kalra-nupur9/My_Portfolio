@@ -25,7 +25,7 @@ function page() {
       className="w-full py-16 bg-gradient-to-r from-pink-300 via-white to-rose-300"
       id="Project"
     >
-      <div className="text-7xl text-main-red font-semibold text-center">
+      <div className="text-4xl sm:text-6xl md:text-7xl text-main-red font-semibold text-center">
         MY PROJECTS
       </div>
       <div className=" text-2xl text-pink-500 text-center  mb-16 ">
@@ -45,22 +45,22 @@ function page() {
              transform sm:translate-x-0 md:-translate-x-full transition-transform duration-300 delay-400 
              group-hover:translate-x-0 flex flex-col justify-center items-center p-6"
           >
-            <div className="grid grid-cols-1   mb-6 pt-10">
-              <div className="grid grid-cols-7 items-center justify-center transform hover:scale-125 transition duration-300 gap-6">
-                <FaHtml5 className="text-orange-600 text-3xl" />
-                <FaCss3Alt className="text-blue-500 text-3xl" />
-                <FaJs className="text-yellow-500 text-3xl" />
-                <SiBootstrap className="text-indigo-500 text-3xl" />
-                <FaNodeJs className="text-green-500 text-3xl" />
-                <FaReact className="text-blue-400 text-3xl" />
-                <SiFigma className="text-main-red  text-3xl" />
-                <FaGitAlt className="text-orange-500 text-3xl" />
-                <SiExpress className="text-gray-500 text-3xl" />
-                <SiMongodb className="text-green-600 text-3xl" />
-                <SiVercel className="text-black text-3xl" />
-                <SiNextdotjs className="text-black text-3xl" />
-                <SiTailwindcss className="text-teal-500 text-3xl" />
-                <FaGithub className="text-black text-3xl" />
+            <div className="grid grid-cols-1 sm:grid-cols-1   mb-6 pt-10 ">
+              <div className="grid grid-cols-7 items-center  justify-center transform hover:scale-125 transition duration-300 gap-6">
+                <FaHtml5 className="text-orange-600 text-2xl sm:text-3xl" />
+                <FaCss3Alt className="text-blue-500 text-2xl sm:text-3xl" />
+                <FaJs className="text-yellow-500 text-2xl sm:text-3xl" />
+                <SiBootstrap className="text-indigo-500 text-2xl sm:text-3xl" />
+                <FaNodeJs className="text-green-500 text-2xl sm:text-3xl" />
+                <FaReact className="text-blue-400 text-2xl sm:text-3xl" />
+                <SiFigma className="text-main-red text-2xl sm:text-3xl" />
+                <FaGitAlt className="text-orange-500 text-2xl sm:text-3xl" />
+                <SiExpress className="text-gray-500 text-2xl sm:text-3xl" />
+                <SiMongodb className="text-green-600 text-2xl sm:text-3xl" />
+                <SiVercel className="text-black text-2xl sm:text-3xl" />
+                <SiNextdotjs className="text-black text-2xl sm:text-3xl" />
+                <SiTailwindcss className="text-teal-500 text-2xl sm:text-3xl" />
+                <FaGithub className="text-black text-2xl sm:text-3xl" />
               </div>
             </div>
             <h1
@@ -69,9 +69,10 @@ function page() {
             >
               Name: Tech Set Go
             </h1>
+            {/* about the project */}
             <p
               className="text-sm md:text-base text-justify transition-opacity duration-700 delay-200 
-                opacity-100 md:opacity-0 md:group-hover:opacity-100"
+    opacity-100 md:opacity-0 md:group-hover:opacity-100 hidden sm:block "
             >
               Tech Set Go empowers aspiring developers and tech professionals
               with expert training, mentorship, and hands-on development
@@ -99,20 +100,20 @@ function page() {
           >
             <div className="grid grid-cols-1   mb-6 pt-10">
               <div className="grid grid-cols-7 items-center justify-center transform hover:scale-125 transition duration-300 gap-6">
-                <FaHtml5 className="text-orange-600 text-3xl " />
-                <FaCss3Alt className="text-blue-500 text-3xl" />
-                <FaJs className="text-yellow-500 text-3xl" />
-                <SiBootstrap className="text-indigo-500 text-3xl" />
-                <FaNodeJs className="text-green-500 text-3xl" />
-                <FaReact className="text-blue-400 text-3xl" />
-                <SiFigma className="text-main-red  text-3xl" />
-                <FaGitAlt className="text-orange-500 text-3xl" />
-                <SiExpress className="text-gray-500 text-3xl" />
-                <SiMongodb className="text-green-600 text-3xl" />
-                <SiVercel className="text-black text-3xl" />
-                <SiNextdotjs className="text-black text-3xl" />
-                <SiTailwindcss className="text-teal-500 text-3xl" />
-                <FaGithub className="text-black text-3xl" />
+                <FaHtml5 className="text-orange-600  text-2xl sm:text-3xl " />
+                <FaCss3Alt className="text-blue-500  text-2xl sm:text-3xl" />
+                <FaJs className="text-yellow-500  text-2xl sm:text-3xl" />
+                <SiBootstrap className="text-indigo-500  text-2xl sm:text-3xl" />
+                <FaNodeJs className="text-green-500  text-2xl sm:text-3xl" />
+                <FaReact className="text-blue-400  text-2xl sm:text-3xl" />
+                <SiFigma className="text-main-red   text-2xl sm:text-3xl" />
+                <FaGitAlt className="text-orange-500  text-2xl sm:text-3xl" />
+                <SiExpress className="text-gray-500  text-2xl sm:text-3xl" />
+                <SiMongodb className="text-green-600  text-2xl sm:text-3xl" />
+                <SiVercel className="text-black  text-2xl sm:text-3xl" />
+                <SiNextdotjs className="text-black  text-2xl sm:text-3xl" />
+                <SiTailwindcss className="text-teal-500  text-2xl sm:text-3xl" />
+                <FaGithub className="text-black  text-2xl sm:text-3xl" />
               </div>
             </div>
             <h1
@@ -123,7 +124,7 @@ function page() {
             </h1>
             <p
               className="text-sm md:text-base text-justify transition-opacity duration-700 delay-200 
-                opacity-100 md:opacity-0 md:group-hover:opacity-100 max-h-10"
+    opacity-100 md:opacity-0 md:group-hover:opacity-100 hidden sm:block"
             >
               About Project: Password Manager wa a project made to save password
               in one place to proctice my full stack.
@@ -151,13 +152,13 @@ function page() {
           >
             <div className="grid grid-cols-1  mb-6 pt-10">
               <div className="flex items-center justify-center transform hover:scale-125 transition duration-300 gap-6">
-                <FaHtml5 className="text-orange-600 text-3xl" />
-                <FaCss3Alt className="text-blue-500 text-3xl" />
-                <FaJs className="text-yellow-500 text-3xl" />
-                <SiBootstrap className="text-indigo-500 text-3xl" />
-                <FaNodeJs className="text-green-500 text-3xl" />
-                <FaReact className="text-blue-400 text-3xl" />
-                <SiFigma className="text-main-red  text-3xl" />
+                <FaHtml5 className="text-orange-600  text-2xl sm:text-3xl" />
+                <FaCss3Alt className="text-blue-500  text-2xl sm:text-3xl" />
+                <FaJs className="text-yellow-500  text-2xl sm:text-3xl" />
+                <SiBootstrap className="text-indigo-500  text-2xl sm:text-3xl" />
+                <FaNodeJs className="text-green-500  text-2xl sm:text-3xl" />
+                <FaReact className="text-blue-400  text-2xl sm:text-3xl" />
+                <SiFigma className="text-main-red   text-2xl sm:text-3xl" />
               </div>
             </div>
             <h1
@@ -168,7 +169,7 @@ function page() {
             </h1>
             <p
               className="text-sm md:text-base text-justify transition-opacity duration-700 delay-200 
-                opacity-100 md:opacity-0 md:group-hover:opacity-100"
+    opacity-100 md:opacity-0 md:group-hover:opacity-100 hidden sm:block"
             >
               About Project: Website Monitoring: Maintained the high user
               experience level when analyzing and updating the design and
@@ -201,20 +202,20 @@ function page() {
           >
             <div className="grid grid-cols-1   mb-6 pt-10">
               <div className="grid grid-cols-7 items-center justify-center transform hover:scale-125 transition duration-300 gap-6">
-                <FaHtml5 className="text-orange-600 text-3xl" />
-                <FaCss3Alt className="text-blue-500 text-3xl" />
-                <FaJs className="text-yellow-500 text-3xl" />
-                <SiBootstrap className="text-indigo-500 text-3xl" />
-                <FaNodeJs className="text-green-500 text-3xl" />
-                <FaReact className="text-blue-400 text-3xl" />
-                <SiFigma className="text-main-red  text-3xl" />
-                <FaGitAlt className="text-orange-500 text-3xl" />
-                <SiExpress className="text-gray-500 text-3xl" />
-                <SiMongodb className="text-green-600 text-3xl" />
-                <SiVercel className="text-black text-3xl" />
-                <SiNextdotjs className="text-black text-3xl" />
-                <SiTailwindcss className="text-teal-500 text-3xl" />
-                <FaGithub className="text-black text-3xl" />
+                <FaHtml5 className="text-orange-600  text-2xl sm:text-3xl" />
+                <FaCss3Alt className="text-blue-500  text-2xl sm:text-3xl" />
+                <FaJs className="text-yellow-500  text-2xl sm:text-3xl" />
+                <SiBootstrap className="text-indigo-500  text-2xl sm:text-3xl" />
+                <FaNodeJs className="text-green-500  text-2xl sm:text-3xl" />
+                <FaReact className="text-blue-400  text-2xl sm:text-3xl" />
+                <SiFigma className="text-main-red   text-2xl sm:text-3xl" />
+                <FaGitAlt className="text-orange-500  text-2xl sm:text-3xl" />
+                <SiExpress className="text-gray-500  text-2xl sm:text-3xl" />
+                <SiMongodb className="text-green-600  text-2xl sm:text-3xl" />
+                <SiVercel className="text-black  text-2xl sm:text-3xl" />
+                <SiNextdotjs className="text-black  text-2xl sm:text-3xl" />
+                <SiTailwindcss className="text-teal-500  text-2xl sm:text-3xl" />
+                <FaGithub className="text-black  text-2xl sm:text-3xl" />
               </div>
             </div>
             <h1
@@ -225,7 +226,7 @@ function page() {
             </h1>
             <p
               className="text-sm md:text-base text-justify transition-opacity duration-700 delay-200 
-                opacity-100 md:opacity-0 md:group-hover:opacity-100"
+    opacity-100 md:opacity-0 md:group-hover:opacity-100 hidden sm:block"
             >
               About Project: Coffee moment was a coffeeshop website with add to
               card and payment process option. It was a pratice Project.
@@ -252,11 +253,11 @@ function page() {
           >
             <div className="grid grid-cols-1   mb-6 pt-10">
               <div className="grid grid-cols-5 items-center justify-center transform hover:scale-125 transition duration-300 gap-6">
-                <FaHtml5 className="text-orange-600 text-3xl" />
-                <FaCss3Alt className="text-blue-500 text-3xl" />
-                <FaJs className="text-yellow-500 text-3xl" />
-                <SiVercel className="text-black text-3xl" />
-                <FaGithub className="text-black text-3xl" />
+                <FaHtml5 className="text-orange-600  text-2xl sm:text-3xl" />
+                <FaCss3Alt className="text-blue-500  text-2xl sm:text-3xl" />
+                <FaJs className="text-yellow-500  text-2xl sm:text-3xl" />
+                <SiVercel className="text-black  text-2xl sm:text-3xl" />
+                <FaGithub className="text-black  text-2xl sm:text-3xl" />
               </div>
             </div>
             <h1
@@ -267,7 +268,7 @@ function page() {
             </h1>
             <p
               className="text-sm md:text-base text-justify transition-opacity duration-700 delay-200 
-                opacity-100 md:opacity-0 md:group-hover:opacity-100 text-white"
+    opacity-100 md:opacity-0 md:group-hover:opacity-100 hidden sm:block text-white"
             >
               About Project: Website which genrate Passwords acording to your
               needs. you can set uppercase, Lowercase, Special caracter, and
@@ -295,22 +296,22 @@ function page() {
           >
             <div className="grid grid-cols-1   mb-6 pt-10">
               <div className="grid grid-cols-5 items-center justify-center transform hover:scale-125 transition duration-300 gap-6">
-                <FaHtml5 className="text-orange-600 text-3xl" />
-                <FaCss3Alt className="text-blue-500 text-3xl" />
-                <SiVercel className="text-black text-3xl" />
-                <SiTailwindcss className="text-teal-500 text-3xl" />
-                <FaGithub className="text-black text-3xl" />
+                <FaHtml5 className="text-orange-600  text-2xl sm:text-3xl" />
+                <FaCss3Alt className="text-blue-500  text-2xl sm:text-3xl" />
+                <SiVercel className="text-black  text-2xl sm:text-3xl" />
+                <SiTailwindcss className="text-teal-500  text-2xl sm:text-3xl" />
+                <FaGithub className="text-black  text-2xl sm:text-3xl" />
               </div>
             </div>
             <h1
               className="text-2xl md:text-3xl font-bold py-4 text-main-red transition-opacity duration-700 delay-200 
-                 opacity-100 md:opacity-0 md:group-hover:opacity-100"
+                 opacity-100 md:opacity-0 md:group-hover:opacity-100 text-center"
             >
               Name: Clone on Razorpay website
             </h1>
             <p
               className="text-sm md:text-base text-justify transition-opacity duration-700 delay-200 
-                opacity-100 md:opacity-0 md:group-hover:opacity-100 text-white"
+    opacity-100 md:opacity-0 md:group-hover:opacity-100 hidden sm:block text-white"
             >
               About Project: Copy of html css design of Razorpay offical website
             </p>
